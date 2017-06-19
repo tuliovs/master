@@ -1,0 +1,152 @@
+/* YOUR CUSTOM STYLES */
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Keania One', cursive;
+*/
+
+body{
+    background-color: #2b313d;
+    font-family: 'Roboto Mono', monospace;
+}
+p{
+    color: #ffffff;
+}
+
+#content{
+    background: url(../img/wall.jpg);
+}
+.bg-primary {
+    background-color: #343845 !important;
+}
+
+.navbar-brand{
+    color: #F3663B !important;
+}
+
+.view{
+    color: #ffffff;
+}
+.view h1{
+    color: #F3663B;
+    font-size: 1400%;
+    margin-bottom: 0%;
+    font-family: 'Keania One', cursive;
+}
+
+.view p::before{
+    content: '>_ ';
+}
+
+h1,h2,h3 {
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+h4 {
+    margin: 20px;
+    text-align: start;
+    align-self: flex-start;
+    color: #F3663B !important;
+}
+
+h5{
+    color: #F3663B;
+}
+
+.displaylist{
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.displaylist img{
+    width: 140px;
+    margin: 0px 10px;
+}
+
+.displaylist {
+    text-transform: uppercase;
+    text-decoration: #343845;
+}
+
+.btn-floating.btn-large {
+    width: 55.5px;
+    height: 55.5px;
+}
+
+.btn-floating.btn-large i {
+    line-height: 55.5px;
+}
+
+.btn-floating i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 37px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: none;
+}
+
+.btn-blue-pink {
+    background: #33b5e5;
+}
+
+.btn-floating, .btn {
+    transition: 0.5s;
+}
+
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #F3663B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.cyan-3-color {
+    background-color: #F3663B !important;
+}
+
+.listcontainer{
+    border-radius: 8px;
+    background-color: #ffffff; 
+    padding: 15px;
+}
+
+.endlister{
+    color: #343845;
+    display: block;
+    text-align: center;
+    top: 100%;
+}
